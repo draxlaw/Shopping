@@ -1,0 +1,57 @@
+Server running on 3000
+Server started PID 20752 at 2025-12-17T13:19:55.163Z
+Completed running 'src/server.js'
+--- touched src/server.js ---
+Restarting 'src/server.js'
+Server running on 3000
+Server started PID 20798 at 2025-12-17T13:19:57.838Z
+Completed running 'src/server.js'
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
+
+> backend@1.0.0 dev
+> nodemon src/server.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Server running on 3000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Server running on 3000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
+Restarting 'src/server.js'
+file:///home/walbe/Documents/EXPO-ECOMMERCE/backend/src/server.js:5
+jj
+^
+
+ReferenceError: jj is not defined
+    at file:///home/walbe/Documents/EXPO-ECOMMERCE/backend/src/server.js:5:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v20.19.6
+Failed running 'src/server.js'
+Restarting 'src/server.js'
+Server running on 3000
+Completed running 'src/server.js'
